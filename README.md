@@ -30,8 +30,9 @@ Endpoints available using the basic/free plan are supported:
 
 **crypto_metadata()**
 
-GET cryptocurrency/info  
 Static metadata for one or more cryptocurrencies.
+
+GET cryptocurrency/info  
 
 Requires id, slug or symbol. Optional parameters are described in API documentation.
 
@@ -39,8 +40,9 @@ Requires id, slug or symbol. Optional parameters are described in API documentat
 
 **crypto_cmc_map()**
 
-GET /cryptocurrency/map  
 Mapping of cryptocurrencies to CoinMarketCap ids.
+
+GET /cryptocurrency/map  
 
 Optional parameters are described in API documentation.
 
@@ -49,8 +51,9 @@ Optional parameters are described in API documentation.
 
 **crypto_listings()**
 
-GET /cryptocurrency/listings/latest  
 Latest cryptocurrency market data.
+
+GET /cryptocurrency/listings/latest  
 
 Optional parameters are described in API documentation.
 
@@ -59,8 +62,9 @@ Optional parameters are described in API documentation.
 
 **crypto_quotes()**
 
-GET /cryptocurrency/quotes/latest  
 Latest cryptocurrency market quotes.
+
+GET /cryptocurrency/quotes/latest  
 
 Requires id, slug or symbol. Optional parameters are described in API documentation.
 
@@ -69,8 +73,9 @@ Requires id, slug or symbol. Optional parameters are described in API documentat
 
 **market_metrics()**
 
-GET /global-metrics/quotes/latest  
 Latest global cryptocurrency market metrics.
+
+GET /global-metrics/quotes/latest  
 
 Optional parameters are described in API documentation.
 
@@ -78,8 +83,9 @@ Optional parameters are described in API documentation.
 
 **convert_currency()**
 
-GET /tools/price-conversion  
 Coverts one cryptocurrency or fiat currency into another.
+
+GET /tools/price-conversion  
 
 Requires amount and id or slug. Optional parameters are described in API documentation.
 
@@ -87,8 +93,9 @@ Requires amount and id or slug. Optional parameters are described in API documen
 
 **fiat_cmc_map()**
 
-GET /fiat/map  
 Mapping of fiat currencies to unique CoinMarketCap ids.
+
+GET /fiat/map  
 
 Optional parameters are described in API documentation.
 
@@ -96,7 +103,8 @@ Optional parameters are described in API documentation.
 
 **account_info()**
 
-GET /key/info  
 API key details and usage stats.
+
+GET /key/info  
 
     response = cmc.account_info()
